@@ -1,0 +1,33 @@
+li{
+	list-style:none;
+}
+.paymessage{
+	text-align:center;
+	line-height:28px;
+}
+.paymessage ul{
+	/* 触发 hasLayout */ 
+	zoom: 1; 
+	width:360px;
+	margin:0 auto;
+	margin-top:18px;
+}
+.paymessage ul:after{
+	content: "020"; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	margin:0 auto;
+}
+.paymessage li{
+	float:left;
+	line-height:14px;
+	padding:8px 25px;
+	border-radius:3px;
+	background:#e00024;
+	margin-left:50px;
+	margin-right:20px;
+	color:#fcfff1;
+	cursor:pointer;
+}

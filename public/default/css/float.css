@@ -1,0 +1,24 @@
+.float-rig{position:fixed;_position:absolute;right:10px;bottom:120px;width:56px;height:240px;display:block;z-index:999;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight - 310));}
+.float-rig li{width:56px;height:56px;display:block;margin-bottom:1px;position:relative;float:left;}
+.float-rig li b{cursor:pointer;width:56px;height:56px;display:block;background:url(../images/float.png) #b0b0b0;overflow:hidden;}
+.float-rig li .b0{background:#e18c3f url(../images/float.png) no-repeat;}
+.float-rig li .b1{background-position:left -56px;background:#35ae6e url(../images/float.png) no-repeat 0 -56px;}
+.float-rig li .b2{background-position:left -112px;background:#279fbc url(../images/float.png) no-repeat 0 -112px;}
+.float-rig li .b3{background-position:left -168px;background:#e04343 url(../images/float.png) no-repeat 0 -168px;}
+.float-rig li .b4{background-position:left -224px;cursor:pointer;background:#b0b0b0 url(../images/float.png) no-repeat 0 -224px;}
+.float-rig li.gxunc .b4{background-color:#8f8f8f;}
+.float-rig li.gxunc b{background-color:#FF0000;}
+.float-rig li .box{width:300px;padding-right:5px;overflow:hidden;position:absolute;top:0;right:56px;display:none\9;opacity:0;filter:alpha(opacity=0);transform:scale(0);-webkit-transform:scale(0);transform-origin:right 30%;-webkit-transform-origin:right 30%;z-index:9999;}
+.float-rig li.gxunc .box{transform:scale(1);-webkit-transform:scale(1);opacity:1;filter:alpha(opacity=100);display:block\9;}
+.float-rig li .box div{float:right;width:82px;padding:8px 10px 12px 10px;background-color:#FFF;display:block;margin:0;overflow:hidden;border:1px solid #e4e4e4;text-align:center;}
+.float-rig li .box div h1{font-size:14px;color:#666;margin-bottom:8px;}
+.float-rig .l1 .box{transform-origin:right 18%;-webkit-transform-origin:right 18%;}
+.float-rig .l1 .box div{padding-top:15px;}
+.float-rig .l1 .box div h1{line-height:18px;margin-top:8px;margin-bottom:0;}
+.float-rig .l2 .box{line-height:22px;font-size:14px;transform-origin:right 18%;-webkit-transform-origin:right 18%;}
+.float-rig .l2 .box div h1{line-height:18px;margin-top:8px;margin-bottom:5px;}
+.float-rig .l3 .box{font-size:14px;}
+.float-rig .l3 .box div h1{margin-bottom:5px;}
+.float-rig .l4{display:none;}
+
+.float-rig li .box .floattel{width:110px; height:50px;}

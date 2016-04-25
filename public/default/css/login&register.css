@@ -1,0 +1,337 @@
+/****************登录页面css**********/
+.login_banner{
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.login_banner_box{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	border: 1px #d4d3d3 solid;
+}
+.login_banner_box img{
+	width: 100%;
+}
+
+.login_main_box{
+	position: absolute;
+	z-index: 3;
+	top: 55px;
+	left: 55px;
+	width: 333px;
+	height: 373px;
+	background: #fff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 17px;
+}
+.login_top{
+	border-bottom: 1px #d2d2d2 solid;
+	position: relative;
+	padding-top: 18px;
+	padding-bottom: 10px;
+}
+.login_top h2{
+	color: #df0024;
+	font-size: 16px;
+	line-height: 16px;
+	width: 84px;
+	text-align: center;
+}
+.login_top span{
+	display: block;
+	width: 84px;
+	height: 3px;
+	background: #df0024;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: -1px;
+}
+.login_main_box .username{
+	margin-top: 20px;
+	position: relative;
+}
+.login_main_box .username input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	background-image: url(../images/login_user.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+.login_main_box .password{
+	margin-top: 20px;
+	position: relative;
+}
+.login_main_box .password input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	background-image: url(../images/login_pass.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+.login_main_box .yzm{
+	margin-top: 20px;
+	width: 296px;
+	height: 44px;
+	position: relative;
+}
+.login_main_box .yzm input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 12px;
+	font-size: 14px;
+}
+.login_main_box .yzm img{
+	position: absolute;
+	z-index: 3;
+	right: 8px;
+	top: 5px;
+}
+
+.login_main_box .checkbox{
+	overflow: hidden;
+	margin-top: 18px;
+}
+.login_main_box .checkbox input{
+	float: left;
+	margin-top: 2px;
+	margin-right: 6px;
+}
+.login_main_box .checkbox a{
+	float: right;
+	color: #2c7dc2;
+	margin-right: 24px;
+}
+
+.login_main_box .submit{
+	margin-top: 34px;
+}
+.login_main_box .submit input{
+	width: 300px;
+	height: 44px;
+	background: #df0024;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.mf_register{
+	float: right;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	background: #df0024;
+	line-height: 30px;
+	color: #fff;
+}
+.mf_register a{
+	display: block;
+	width: 100%;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	text-indent: 10px;
+}
+.mf_register a span{
+	font-size: 14px;
+}
+
+
+/**********注册页面css样式*********/
+
+.register_main_box{
+	width: 333px;
+	height: 445px;
+	position: absolute;
+	right: 95px;
+	top: 20px;
+	background: #fff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 17px;
+	border: 1px #d4d3d3 solid;
+}
+.register_main_box .cellphon{
+	margin-top: 20px;
+	position: relative;
+	width: 296px;
+	height: 44px;
+}
+.register_main_box .cellphon input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 12px;
+	font-size: 14px; 
+}
+.register_main_box .yzm{
+	margin-top: 20px;
+	position: relative;
+	width: 296px;
+	height: 44px;
+	overflow: hidden;
+}
+.register_main_box .yzm input{
+	width: 185px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 12px;
+	font-size: 14px; 
+	float: left;
+}
+.register_main_box .yzm button{
+	background:#FFF;
+	display: block;
+	width: 100px;
+	height: 44px;
+	line-height: 44px;
+	border: 1px #df0024 solid;
+	float: right;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+}
+.register_main_box .password{
+	margin-top: 20px;
+	position: relative;
+	width: 296px;
+	height: 44px;
+}
+.register_main_box .password input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 12px;
+	font-size: 14px; 
+}
+.register_main_box .password_again{
+	margin-top: 20px;
+	position: relative;
+	width: 296px;
+	height: 44px;
+}
+.register_main_box .password_again input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 12px;
+	font-size: 14px; 
+}
+.register_main_box .nc_name{
+	margin-top: 20px;
+	position: relative;
+	width: 296px;
+	height: 44px;
+}
+.register_main_box .nc_name input{
+	width: 296px;
+	height: 44px;
+	border: 1px #d4d3d3 solid;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 12px;
+	font-size: 14px; 
+}
+.register_main_box .submit{
+	width: 296px;
+	height: 44px;
+	line-height: 44px;
+	margin-top: 20px;
+}
+.register_main_box .submit input{
+	width: 296px;
+	height: 44px;
+	background: #df0024;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+/************重置密码***********/
+.reset_main_box.register_main_box{
+	width: 333px;
+	height: 400px;
+	position: absolute;
+	right: 95px;
+	top: 45px;
+	background: #fff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding-left: 17px;
+	border: 1px #d4d3d3 solid;
+}
+.reset_main_box.register_main_box .submit{
+	margin-top: 30px;
+}

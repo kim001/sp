@@ -1,0 +1,374 @@
+@charset "utf-8";
+body{
+    width: 100%;
+    font-family: 微软雅黑;
+}
+body,ul,h1,h2,h3,h4,h5,h6,dl,dt,dd,p {
+    margin: 0;
+    padding: 0;
+}
+li{list-style:none;}
+a {text-decoration: none;}
+/**头部公用**/
+.mian_top{
+	background:#237ae4;
+}
+.mian_top_cont{
+	width:1024px;
+	margin:0 auto;
+}
+.mian_nav{
+	background:#fff;
+}
+.mian_nav_cont{
+	width:1024px;
+	margin:0 auto;
+}
+.cont_ri{
+	position:relative;
+	right:0px;
+	top:0px;
+	float:right;
+}
+.top_pic{
+	margin-left:219px;
+}
+/*body_cont*/
+.body_cont{
+	width:1024px;
+	margin:0 auto;
+	margin-top:16px;
+}
+.layout_nav{
+	width:179px;
+}
+.layout_nav li{
+	width:177px;
+}
+/*两栏布局模块*/
+.two_layout{
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+}
+.two_layout:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+}
+.two_layout li{
+	float:left;
+}
+.two_layout .mright{
+	float:right;
+}
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+}
+.clearfix {
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+}/*页面 主题*/
+.crumbs{
+    margin-top: 10px;
+    position: relative;
+    width: 990px;
+    color: #666;
+    line-height: 30px;
+    font-size:12px;
+}
+.bodysect{
+	margin:0 auto;
+	width:990px;
+}
+.crumbs a {
+    padding-right: 8px;
+    margin-right: 1px;
+    color: #7C7269;
+    font-size:12px;
+}/**/
+.flowstep .step-first .step-done .step-no {
+    background-position: 50% -204px;
+}
+.flowstep .step-no {
+    height: 34px;
+    line-height: 34px;
+    font-family: 'arial black';
+    color: #fff;
+    font-size: 18px;
+}
+.flowstep .step-no{
+    background:url(../images/T1ze0ZXA0aXXcVlxZa-734-340.png) no-repeat 50% -102px;
+}
+.flowstep .step-cur .step-no2{
+    background-position: 50% -170px;
+}
+.flowstep-5 li {
+    width: 156px;
+}
+.step-name,.step-no,.step-time{
+	text-align:center;
+}
+.flowstep div.step_5n{
+    background-position: 50% -136px;
+}
+.flowstep div.step_b{
+    background-position: 50% -0px;
+}
+.flowstep div.step_q{
+    background-position: 50% -170px;
+}
+.flowstep div.step_qz{
+    background-position: 50% -239px;
+}
+.flowstep div.step_n{
+    background-position: 50% -102px;
+}
+.flowstep div.step_5b{
+    background-position: 50% -68px;
+}
+.flowstep .step-name{
+    padding: 3px 0;
+    font-weight: 700;
+    color:#999;
+    font-size:13px;
+}
+.step-time{font-size:12px;padding-top:20px;}
+.J_trade_status {
+    position: relative;
+    border: 1px solid #DDD;
+    border-right: 0;
+    min-height: 245px;
+    height: auto!important;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.trade-status-table {
+    width:990px;
+    min-height: 245px;
+}
+.trade-status-table .tabtdcon{
+    width: 266px;
+    color: #666;
+    background-color: #fbfbfb;
+}
+.trade-status-table .table-td {
+    border-right: 1px solid #DDD;
+    vertical-align: top;
+    height: 228px;
+}
+.trade-status-table .table-td {
+    border-right: 1px solid #DDD;
+    vertical-align: top;
+    height: 228px;
+}/**/
+.table-list{
+	margin: 10px 8px 0 20px;
+}
+.trade-imfor-title{
+    height: 29px;
+    border-bottom: 1px solid #DDD;
+    background-color: #F3F3F3;
+    line-height: 29px;
+    width: 266px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    text-indent:16px;
+}.trade-imfor-dt{
+	width:62px;
+	font-size:12px;}
+.trade-imfor-dd {
+    width: 162px;font-size:13px;}
+.separate-top {
+    padding-top: 10px;
+    border-top: 1px dotted #DDD;
+}
+.imfor-title{
+	padding:5px 0 0 80px;
+}
+.imfor-title h3{
+	font-size:14px;
+}
+.imfor-title .table-list{
+	margin:0;
+}
+.tradeimfordd{
+	font-size:12px;
+	line-height:26px;
+	height:400px;
+	overflow-y: auto;
+	width: 642px;
+}
+.w434{
+	width:434px;
+	margin-left: 15px;
+}
+.ui-btn-m{
+    background-color: #f7f2f2;
+    color: #333;
+    line-height: 18px;
+    font-size: 12px;
+    cursor:pointer;
+    margin-right:20px;
+    display:inline-block;
+    border:1px solid #969292;
+    padding:3px 8px;
+}
+.ui-btn-l{
+    color: #2652A5;
+    height: 25px;
+    line-height: 18px;
+    font-size: 12px;
+    cursor:pointer;
+}
+.lin28{
+	line-height:28px;
+}
+.bought-listform-header {
+    border: 1px solid #DDD;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    margin-top:20px;
+    font-size:13px;
+    background-color: #E3EEFF;
+}
+.bought-listform-header dd {
+    float: left;
+}
+.header-item{
+    width: 328px;
+}
+.header-price {
+    width: 110px;
+}
+.header-count {
+    width: 115px;
+}
+.header-favorable {
+    width: 120px;
+}
+.header-status {
+    width: 170px;
+}
+.header-logistics {
+    width: 130px;
+}
+.bought-listform-maincontent {
+    
+}
+.bought-listform-maincontent .header-content-detail {
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #DDD;
+    width: 990px;
+}
+.bought-listform-maincontent .header-content-logistics {
+    border-left: 0;
+    border-bottom:1px solid #DDD;
+    width: 130px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.bought-listform-content {
+    height: 45px;
+    line-height: 45px;
+    text-align:left;
+    color: #666;
+    font-size:12px;
+    border-bottom: 1px solid #DDD;
+}.bought-listform-content span{
+	display:inline-block;
+	margin-left:15px;
+}/**/
+.header-content-logistics{
+	border-right:1px solid #ccc;
+}
+.font-high-light{
+	font-size:12px;
+	text-align:center;
+}
+.J_bought_listform{
+	font-size:12px;
+}
+.J_bought_listform tr td{
+	padding:16px 0;
+	text-align:center;
+}
+.header-favorable ul{
+	display:inline-block;
+}
+.header-item1{
+	width:93px;
+}/**/
+.item-img {
+    margin: 0 10px 0 25px;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E9E9E9;
+}
+.item-img img{
+	width:50px;
+	height:50px;
+}
+.header-item2{
+	width:235px;
+}/**/
+.item-meta {
+    display: inline-block;
+    zoom: 1;
+    text-align: left;
+    vertical-align: top;
+    width: 237px;
+    line-height:18px;
+}
+.item-meta a{
+	display:inline-block;
+	line-height:18px;
+	cursor:pointer;
+}
+.header-price{
+    width:110px;
+    text-align:center;
+}
+.header-count {
+    width:115px;
+    text-align:center;
+}
+.header-favorable {
+    width:200px;
+    text-align:center;
+}
+.header-status{
+    width: 170px;
+    text-align:center;
+}
+.favorable-hight-light {
+    color: #666;
+    line-height: 15px;
+    width: 85px;
+    margin: 0 auto;
+}
+.tradeimfordd p{
+	font-size:15px;
+	color:#111;
+}
+.tradeimfordd ul{
+	color:#929292;
+	
+}
