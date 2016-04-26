@@ -926,7 +926,7 @@ $(function() {
 				'onUploadSuccess' : function(file, data, response) {
 					$('body').find('#file_upload-queue').html('恭喜你，图片上传成功！');
 					var ret = data;
-                    //alert(ret);
+                    alert(ret);
 					//var ret = eval("("+data+")");
 					console.info(data);
 					console.info(file);

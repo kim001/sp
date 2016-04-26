@@ -87,7 +87,6 @@ class Supply extends SP_Controller {
                 );
                 $rets = $ch->set_post(_FILE_PHP_.'/upload.php', $updata);
                 $fs = $this->myjson->decode($rets);
-
                 if($fs['flag']<0) {
                     $retAjax['status'] = 'n';
                     $retAjax['info'] = sprinf($this->lang->line('upload_fail'), $fs['name']);
@@ -96,13 +95,13 @@ class Supply extends SP_Controller {
                     $img = $this->input->post('uptype', true) . '_img';
                     $info = $this->common->findOne('supply_info', 'user_id='.$user_id);
                     if($info) {
-                        $data[$img] = date('Ymdhis', gmtime()).mt_rand(10,99).'.jpg,';//TODO $info[$img].$fs['dir'].$fs['name'].',';
+                        $data[$img] =  $info[$img].$fs['dir'].$fs['name'].',';
                         $this->common->upd('supply_info', $data, 'user_id=' . $user_id);
                     }
                     else {
                         $data['user_id'] = $user_id;
                         $data['is_ok'] = $this->check($user_id);
-                        $data[$img] = date('Ymdhis', gmtime()).mt_rand(10,99).'.jpg';//TODO $fs['dir'].$fs['name'];
+                        $data[$img] = $fs['dir'].$fs['name'].',';
                         $this->common->add('supply_info', $data, 'user_id=' . $user_id);
                     }
                     $retAjax['status'] = 'y';
