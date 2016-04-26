@@ -70,7 +70,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'chinese';
 
 /*
 |--------------------------------------------------------------------------
@@ -108,7 +108,7 @@ $config['enable_hooks'] = FALSE;
 | http://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'SP_';
 
 /*
 |--------------------------------------------------------------------------
@@ -505,3 +505,10 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+//新增配置
+$config['seo_title'] = '药材网';
+$config['seo_keywords'] = '药材网';
+$config['seo_description'] = '药材网';
+
+

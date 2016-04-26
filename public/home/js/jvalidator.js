@@ -1,4 +1,4 @@
-﻿/* jquery 表单验证使用实例！  */
+/* jquery 表单验证使用实例！  */
 //获取Request notnull
 function isRequestNotNull(obj) {
     obj = $.trim(obj);
